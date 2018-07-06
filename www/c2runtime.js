@@ -21578,8 +21578,8 @@ cr.getObjectRefTable = function () { return [
 	cr.plugins_.admob,
 	cr.plugins_.Audio,
 	cr.plugins_.Sprite,
-	cr.plugins_.Touch,
 	cr.plugins_.Text,
+	cr.plugins_.Touch,
 	cr.plugins_.UserMedia,
 	cr.behaviors.Bullet,
 	cr.behaviors.Pin,
@@ -21587,6 +21587,7 @@ cr.getObjectRefTable = function () { return [
 	cr.behaviors.DragnDrop,
 	cr.system_object.prototype.cnds.IsGroupActive,
 	cr.system_object.prototype.cnds.OnLayoutStart,
+	cr.plugins_.admob.prototype.acts.PreloadInterstitial,
 	cr.plugins_.admob.prototype.acts.PreloadBanner,
 	cr.plugins_.Sprite.prototype.acts.Destroy,
 	cr.plugins_.Text.prototype.acts.SetText,
@@ -21656,5 +21657,6 @@ cr.getObjectRefTable = function () { return [
 	cr.plugins_.Sprite.prototype.acts.SetVisible,
 	cr.plugins_.Sprite.prototype.cnds.CompareInstanceVar,
 	cr.system_object.prototype.exps.lerp,
-	cr.plugins_.Sprite.prototype.acts.SubInstanceVar
+	cr.plugins_.Sprite.prototype.acts.SubInstanceVar,
+	cr.plugins_.admob.prototype.acts.ShowInterstitial
 ];};
