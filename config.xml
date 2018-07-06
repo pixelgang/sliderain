@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<widget id="com.pixelgang.slideapp" version="1.0" xmlns="http://www.w3.org/ns/widgets" xmlns:android = "http://schemas.android.com/apk/res/android" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+	<name>Slide App</name>
+	<description>slide app</description>
+	<author href="www.pixelgangstudios.com" email="pixelgangus@gmail.com">Pixel Gang Studios</author>
+
+	<icon src="www/icon-256.png" width="256" height="256" density="xxxhdpi" />
+	<icon src="www/icon-128.png" width="128" height="128" density="xhdpi" />
+
+	<preference name="android-targetSdkVersion" value="26" />
+
+	<preference name="orientation" value="default" />
+	<preference name="fullscreen" value="false" />
+	<preference name="DisallowOverscroll" value="true" />
+	<preference name="AllowInlineMediaPlayback" value="true" />
+
+	<preference name="deployment-target" value="8.0" />
+	<preference name="android-minSdkVersion" value="21" />
+	<access origin="*" />
+
+	<plugin name="cordova-plugin-ad-admob" />
+	<plugin name="cordova-plugin-camera" />
+	<plugin name="cordova-plugin-media" />
+	<plugin name="cordova-plugin-whitelist" />
+
+
+	<engine name="ios" />
+	<engine name="android" />
+</widget>

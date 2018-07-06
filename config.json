@@ -1,0 +1,38 @@
+﻿{
+	"id": "com.pixelgang.slideapp",
+	"version": "1.0",
+	"name": "Slide App",
+	"description": "slide app",
+	"author": "Pixel Gang Studios",
+	"email": "pixelgangus@gmail.com",
+	"website": "www.pixelgangstudios.com",
+	"fullscreen": "false",
+	"useragent": null,
+	"orientation": "default",
+	"icons": [{
+		"src": "www/icon-256.png",
+		"width": 256,
+		"height": 256,
+		"density": "xxxhdpi"
+	}, {
+		"src": "www/icon-128.png",
+		"width": 128,
+		"height": 128,
+		"density": "xhdpi"
+	}],
+	"plugins": [
+		{ "id": "cordova-plugin-ad-admob", "version": null },
+		{ "id": "cordova-plugin-camera", "version": null },
+		{ "id": "cordova-plugin-media", "version": null },
+		{ "id": "cordova-plugin-whitelist", "version": null }
+	],
+	"android": {
+		"min": 21,
+		"target": 26,
+		"plugins": []
+	},
+	"ios": {
+		"target": "8.0",
+		"plugins": []
+	}
+}
